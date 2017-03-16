@@ -13,6 +13,8 @@ module.exports = function App (props) {
 
       <div className='navbar'>
         <a href='/'>HOME</a> |
+        <a href='/weird'> WEIRD SOUNDS</a> |
+        <a href='/cool'> COOL COLOURS</a>
       </div>
 
       {MainComponent(props)}
