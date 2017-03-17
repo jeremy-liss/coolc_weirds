@@ -22,6 +22,34 @@ function Weird (props){
           {props.weird.cat.isVisible ? <img src={props.weird.cat.href}/> : '' }
         </div>
       </div>
+      <div id="container">
+        <div id="square" onClick={() => props.showAnimal('dog')}>
+          {props.weird.dog.isVisible ? <img src={props.weird.dog.href}/> : '' }
+        </div>
+        <div id="square" onClick={() => props.showAnimal('horse')}>
+          {props.weird.horse.isVisible ? <img src={props.weird.horse.href}/> : '' }
+        </div>
+        <div id="square" onClick={() => props.showAnimal('rabbit')}>
+          {props.weird.rabbit.isVisible ? <img src={props.weird.rabbit.href}/> : '' }
+        </div>
+        <div id="square" onClick={() => props.showAnimal('poo')}>
+          {props.weird.poo.isVisible ? <img src={props.weird.poo.href}/> : '' }
+        </div>
+      </div>
+      <div id="container">
+        <div id="square" onClick={() => props.showAnimal('mouse')}>
+          {props.weird.mouse.isVisible ? <img src={props.weird.mouse.href}/> : '' }
+        </div>
+        <div id="square" onClick={() => props.showAnimal('frog')}>
+          {props.weird.frog.isVisible ? <img src={props.weird.frog.href}/> : '' }
+        </div>
+        <div id="square" onClick={() => props.showAnimal('panda')}>
+          {props.weird.panda.isVisible ? <img src={props.weird.panda.href}/> : '' }
+        </div>
+        <div id="square" onClick={() => props.showAnimal('lion')}>
+          {props.weird.lion.isVisible ? <img src={props.weird.lion.href}/> : '' }
+        </div>
+      </div>
     </div>
   )
 }
