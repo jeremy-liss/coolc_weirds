@@ -11,7 +11,7 @@ function Weird (props){
     <div>
     <h1>Hey weirdo!</h1>
 
-    <div id="container">
+    <div id="game">
 
       {animals.map(function(animal){
 
