@@ -9,7 +9,7 @@ function Home (){
       <h3>
         Prepare to be mind blown, totally swept away by the unpresidented beauty you are about to witness.
       </h3>
-      <img src= "http://static.inspiremore.com/wp-content/uploads/2016/05/17093954/p.jpg"/>
+      <img id='cat' src= "http://static.inspiremore.com/wp-content/uploads/2016/05/17093954/p.jpg"/>
     </div>
   )
 }
