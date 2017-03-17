@@ -4,10 +4,12 @@
   background: red;
   border-color: black;
   border-style: solid;
+  float: left;
 }
 
 #container {
-  display: flex;
+  width:320px;
+  height: 400px;
 }
 
 img {
