@@ -5,7 +5,7 @@ module.exports = Cool
 function Cool (){
   return (
     <div>
-      <h1>Hey coolio!</h1>
+      <h1> Contempory Art </h1>
       <p>
         <button onClick={myMove}>
           Click Me
@@ -25,7 +25,7 @@ function myMove() {
   var id = setInterval(frame, 1)
 
   function frame() {
-    if (pos == 570) {
+    if (pos == 520) {
       clearInterval(id)
     } else {
       pos++;
